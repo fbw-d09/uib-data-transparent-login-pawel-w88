@@ -4,14 +4,19 @@
   box-sizing: border-box;
 }
 
-.container {
-  position: relative;
+body {
+  background-image: url(./drops-6392473__340.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-img {
-  width: 100vw;
-  height: 100vh;
-  filter: grayscale(100%);
+.container {
+  position: relative;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.8)
+  );
 }
 
 h1 {
@@ -24,20 +29,19 @@ h1 {
   border-bottom: 10px solid #000;
 }
 
-form {
-  text-align: center;
-}
 
 .form1 {
   position: absolute;
   top: 150px;
   left: 600px;
+  font-weight: bold;
 }
 
 .form2 {
   position: absolute;
   top: 200px;
   left: 600px;
+  font-weight: bold;
 }
 
 input {
@@ -47,14 +51,9 @@ input {
   box-sizing: border-box;
   background: transparent;
   outline: none;
-  
 }
 
 
-::placeholder {
-    font-weight: bold;
-    color: #000;
-  }
 
 .clic {
   width: 735px;
@@ -63,4 +62,5 @@ input {
   position: absolute;
   top: 300px;
   left: 600px;
+  font-weight: bold;
 }
